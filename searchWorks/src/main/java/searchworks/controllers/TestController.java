@@ -22,6 +22,7 @@ public class TestController {
 		List<Person> people = personRepo.findAll();
 	
 		for(Person p: people){
+			
 			System.out.println(p);
 		}
 		

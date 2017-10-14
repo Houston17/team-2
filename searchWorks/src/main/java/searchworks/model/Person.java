@@ -8,7 +8,7 @@ import javax.persistence.Id;
 import javax.persistence.Table;
 
 @Entity
-@Table(name="persons")
+@Table(name="users")
 public class Person {
 
 	@Id
@@ -21,6 +21,9 @@ public class Person {
 	
 	@Column
 	private String lastName;
+	
+	@Column
+	private String email;
 
 	public Integer getId() {
 		return id;
@@ -45,11 +48,23 @@ public class Person {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+	
+	
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
 
 	@Override
 	public String toString() {
-		return "Person [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + "]";
+		return "Person [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", email=" + email + "]";
 	}
+	
+	
 	
 	
 	
