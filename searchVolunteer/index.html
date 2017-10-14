@@ -1,304 +1,175 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-  <title>SEARCH-Homeless Service</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-  <link rel="stylesheet" href="assets/css/main.css"> <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
-  <style>
-    /* Full-width input fields */
-
-    input[type=text],
-    input[type=password] {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      display: inline-block;
-      border: 1px solid #ccc;
-      box-sizing: border-box;
-    }
-    /* Set a style for all buttons */
-
-    button {
-      background-color: #4CAF50;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      cursor: pointer;
-      width: 100%;
-    }
-
-    button:hover {
-      opacity: 0.8;
-    }
-    /* Extra styles for the cancel button */
-
-    .cancelbtn {
-      width: auto;
-      padding: 10px 18px;
-      background-color: #f44336;
-    }
-    /* Center the image and position the close button */
-
-    .imgcontainer {
-      text-align: center;
-      margin: 24px 0 12px 0;
-      position: relative;
-    }
-
-    img.avatar {
-      width: 40%;
-      border-radius: 50%;
-    }
-
-    .container {
-      padding: 16px;
-    }
-
-    span.psw {
-      float: right;
-      padding-top: 16px;
-    }
-    /* The Modal (background) */
-
-    .modal {
-      display: none;
-      /* Hidden by default */
-      position: fixed;
-      /* Stay in place */
-      z-index: 1;
-      /* Sit on top */
-      left: 0;
-      top: 0;
-      width: 100%;
-      /* Full width */
-      height: 100%;
-      /* Full height */
-      overflow: auto;
-      /* Enable scroll if needed */
-      background-color: rgb(0, 0, 0);
-      /* Fallback color */
-      background-color: rgba(0, 0, 0, 0.4);
-      /* Black w/ opacity */
-      padding-top: 60px;
-    }
-    /* Modal Content/Box */
-
-    .modal-content {
-      background-color: #fefefe;
-      margin: 5% auto 15% auto;
-      /* 5% from the top, 15% from the bottom and centered */
-      border: 1px solid #888;
-      width: 80%;
-      /* Could be more or less, depending on screen size */
-    }
-    /* The Close Button (x) */
-
-    .close {
-      position: absolute;
-      right: 25px;
-      top: 0;
-      color: #000;
-      font-size: 35px;
-      font-weight: bold;
-    }
-
-    .close:hover,
-    .close:focus {
-      color: red;
-      cursor: pointer;
-    }
-    /* Add Zoom Animation */
-
-    .animate {
-      -webkit-animation: animatezoom 0.6s;
-      animation: animatezoom 0.6s
-    }
-
-    @-webkit-keyframes animatezoom {
-      from {
-        -webkit-transform: scale(0)
-      }
-      to {
-        -webkit-transform: scale(1)
-      }
-    }
-
-    @keyframes animatezoom {
-      from {
-        transform: scale(0)
-      }
-      to {
-        transform: scale(1)
-      }
-    }
-    /* Change styles for span and cancel button on extra small screens */
-
-    @media screen and (max-width: 300px) {
-      span.psw {
-        display: block;
-        float: none;
-      }
-      .cancelbtn {
-        width: 100%;
-      }
-    }
-  </style>
-</head>
-
-<body class="is-loading">
-  <!-- Wrapper -->
-  <div id="wrapper" class="fade-in">
-    <!-- Intro -->
-    <div id="intro">
-      <h1>SEARCH
-        <br> HOMELESS SERVICES</h1>
-      <p>Online Volunteer Registration Form</p>
-      <ul class="actions">
-        <li>
-          <a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a>
-        </li>
-      </ul>
-    </div>
-    <!-- Header -->
-    <header id="header">
-      <a href="index.html" class="logo">SEARCH</a>
-    </header>
-    <!-- Nav -->
-    <nav id="nav">
-      <ul class="links">
-        <li class="active">
-          <a href="index.html">REGISTER</a>
-        </li>
-        <li>
-          <a href="event.html">EVENTS</a>
-        </li>
-        <li>
-          <a href="volunteers.html">VOLUNTEER LIST</a>
-        </li>
-      </ul>
-      <ul class="icons">
-        <li>
-          <a href="https://twitter.com/SEARCHhomeless" class="icon fa-twitter"><span class="label">Twitter</span></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/searchhomelessservices" class="icon fa-facebook"><span class="label">Facebook</span></a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/search.homeless/" class="icon fa-instagram"><span class="label">Instagram</span></a>
-        </li>
-      </ul>
-    </nav>
-    <!-- Main -->
-    <div id="main">
-      <!-- Featured Post -->
-      <article class="post featured">
-        <header class="major"> <span class="date"></span>
-          <h2> Sign up
-            <br> to volunteer </h2>
-        </header>
-        <a href="#" class="image main">
-          <iframe width="770" height="415" src="https://www.youtube.com/embed/_l0pjr9o3z4?rel=0" frameborder="0" allowfullscreen=""></iframe>
-        </a>
+<html><head>
+    <title>SEARCH-Homeless Service</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript>
+      <link rel="stylesheet" href="assets/css/noscript.css">
+    </noscript>
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon.ico/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon.ico/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon.ico/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon.ico/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon.ico/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon.ico/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon.ico/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="ffavicon.ico/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon.ico/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+  </head><body class="is-loading">
+    <!-- Wrapper -->
+    <div id="wrapper" class="fade-in">
+      <!-- Intro -->
+      <div id="intro">
+        <h1>SEARCH
+          <br>HOMELESS SERVICES</h1>
+        <p>Online Volunteer Registration Form</p>
         <ul class="actions">
           <li>
-            <a class="button big" href="form.html">sign up</a>
+            <a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a>
           </li>
         </ul>
-        <!-- Modal Button Begins -->
-        <div id="id01" class="modal">
-          <form class="modal-content animate" action="/action_page.php">
-            <div class="imgcontainer"> <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">×</span>
-              <img src="img_avatar2.png" alt="Avatar" class="avatar"> </div>
-            <div class="container"> <label><b>Username</b></label>
-              <input type="text" placeholder="Enter Username" name="uname" required=""> <label><b>Password</b></label>
-              <input type="password" placeholder="Enter Password" name="psw" required="">
-              <button type="submit">Login</button>
-              <input type="checkbox" checked="checked" value="on"> Remember me </div>
-            <div class="container" style="background-color:#f1f1f1">
-              <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button> <span class="psw">Forgot <a href="#">password?</a></span> </div>
-          </form>
-        </div>
-      </article>
-    </div>
-    <!-- Footer -->
-    <footer id="footer">
-      <section>
-        <form method="post" action="#">
-          <div class="field"> <label for="name">Name</label>
-            <input type="text" name="name" id="name"> </div>
-          <div class="field"> <label for="email">Email</label>
-            <input type="text" name="email" id="email"> </div>
-          <div class="field"> <label for="message">Message</label> <textarea name="message" id="message" rows="3"></textarea> </div>
+      </div>
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">SEARCH</a>
+      </header>
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li class="active">
+            <a href="index.html">REGISTER</a>
+          </li>
+          <li>
+            <a href="event.html">EVENTS</a>
+          </li>
+          <li>
+            <a href="volunteers.html">VOLUNTEER LIST</a>
+          </li>
+        </ul>
+        <ul class="icons">
+          <li>
+            <a href="https://twitter.com/SEARCHhomeless" class="icon fa-twitter"><span class="label">Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/searchhomelessservices" class="icon fa-facebook"><span class="label">Facebook</span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/search.homeless/" class="icon fa-instagram"><span class="label">Instagram</span></a>
+          </li>
+        </ul>
+      </nav>
+      <!-- Main -->
+      <div id="main">
+        <!-- Featured Post -->
+        <article class="post featured">
+          <header class="major">
+            <span class="date"></span>
+            <h2>Sign up
+              <br>to volunteer</h2>
+          </header>
+          <a href="#" class="image main">
+          <iframe width="770" height="415" src="https://www.youtube.com/embed/_l0pjr9o3z4?rel=0" frameborder="0" allowfullscreen=""></iframe>
+        </a>
           <ul class="actions">
             <li>
-              <input type="submit" value="Send Message"> </li>
-          </ul>
-        </form>
-      </section>
-      <section class="split contact">
-        <section class="alt">
-          <h3>Address</h3>
-          <p>2015 Congress Avenue Houston
-            <br>TX 77002</p>
-        </section>
-        <section>
-          <h3>Phone</h3>
-          <p>
-            <a href="#">Phone: (713) 739-7752</a>
-          </p>
-        </section>
-        <section>
-          <h3>Email</h3>
-          <p>
-            <a href="#">info@untitled.tld</a>
-          </p>
-        </section>
-        <section>
-          <h3>Social</h3>
-          <ul class="icons alt">
-            <li>
-              <a href="https://twitter.com/SEARCHhomeless" class="icon alt fa-twitter"><span class="label">Twitter</span></a>
-            </li>
-            <li>
-              <a href="https://www.facebook.com/searchhomelessservices" class="icon alt fa-facebook"><span class="label">Facebook</span></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/search.homeless/" class="icon alt fa-instagram"><span class="label">Instagram</span></a>
+              <a class="button big" href="form.html">sign up</a>
             </li>
           </ul>
+          <!-- Modal Button Begins -->
+        </article>
+      </div>
+      <!-- Footer -->
+      <footer id="footer">
+        <section>
+          <form method="post" action="#">
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" name="name" id="name">
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="text" name="email" id="email">
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea name="message" id="message" rows="3"></textarea>
+            </div>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send Message">
+              </li>
+            </ul>
+          </form>
         </section>
-      </section>
-    </footer>
-    <!-- Copyright -->
-    <div id="copyright">
-      <ul>
-        <li>© SEARCH</li>
-        <li>Design:
-          <a href="https://github.com/Houston17/team-2">Team 2</a>
-        </li>
-      </ul>
+        <section class="split contact">
+          <section class="alt">
+            <h3>Address</h3>
+            <p>2015 Congress Avenue Houston
+              <br>TX 77002</p>
+          </section>
+          <section>
+            <h3>Phone</h3>
+            <p>
+              <a href="#">Phone: (713) 739-7752</a>
+            </p>
+          </section>
+          <section>
+            <h3>Email</h3>
+            <p>
+              <a href="#">info@untitled.tld</a>
+            </p>
+          </section>
+          <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+              <li>
+                <a href="https://twitter.com/SEARCHhomeless" class="icon alt fa-twitter"><span class="label">Twitter</span></a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/searchhomelessservices" class="icon alt fa-facebook"><span class="label">Facebook</span></a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/search.homeless/" class="icon alt fa-instagram"><span class="label">Instagram</span></a>
+              </li>
+            </ul>
+          </section>
+        </section>
+      </footer>
+      <!-- Copyright -->
+      <div id="copyright">
+        <ul>
+          <li>© SEARCH</li>
+          <li>Design:
+            <a href="https://github.com/Houston17/team-2">Team 2</a>
+          </li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <!-- Scripts -->
-  <script>
-    // Get the modal
-    var modal = document.getElementById('id01');
-    // When the user clicks anywhere outside of the modal, close it
-    window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
-        }
-    }
-  </script>
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/skel.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-</body>
+    <!-- Scripts -->
+    <script>
+      // Get the modal
+            var modal = document.getElementById('id01');
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+    </script>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+  
 
-</html>
+</body></html>
