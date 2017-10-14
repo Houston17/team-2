@@ -1,10 +1,13 @@
 package searchworks.model;
 
+import java.util.List;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
 import javax.persistence.Table;
 
 @Entity
@@ -24,6 +27,9 @@ public class Person {
 	
 	@Column
 	private String email;
+	
+	@ManyToMany(mappedBy="volunteers")
+	private List<Event> events;
 
 	public Integer getId() {
 		return id;
@@ -57,6 +63,16 @@ public class Person {
 
 	public void setEmail(String email) {
 		this.email = email;
+	}
+	
+	
+
+	public List<Event> getEvents() {
+		return events;
+	}
+
+	public void setEvents(List<Event> events) {
+		this.events = events;
 	}
 
 	@Override

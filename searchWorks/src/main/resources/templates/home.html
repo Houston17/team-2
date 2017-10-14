@@ -1,5 +1,5 @@
 <html><head>
-    <title>Massively by HTML5 UP</title>
+    <title th:text="name"></title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <link rel="stylesheet" href="assets/css/main.css" />
@@ -24,7 +24,7 @@
       </div>
       <!-- Header -->
       <header id="header">
-        <a href="index.html" class="logo">Massively</a>
+        <a href="index.html" class="logo" th:text="${name}">xxxxxx</a>
       </header>
       <!-- Nav -->
       <nav id="nav">
@@ -71,6 +71,13 @@
         </article>
         <!-- Posts -->
         <section class="posts">
+        
+        
+        <ul>
+        	<li th:each="event : ${events}">
+        		<span th:text="${event.name}">--NAME--</span>
+        	</li>
+        </ul>
           
           
           
