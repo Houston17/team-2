@@ -2998,13 +2998,13 @@
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #3c9e53 !important;
+			border-color: #3c9e53;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #3c9e53;
 			}
 
 		.pagination a.active {
@@ -3167,7 +3167,7 @@
 			#intro button:hover,
 			#intro .button:hover {
 				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				color: #3c9e53 !important;
 			}
 
 			#intro input[type="submit"].special,
