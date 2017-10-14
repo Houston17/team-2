@@ -2748,6 +2748,7 @@
 		}
 		
 		header.minor {
+			font-size: 0.8rem;
 			margin: 0 0 4rem 0;
 			text-align: center;
 		}
@@ -2997,13 +2998,13 @@
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #3c9e53 !important;
+			border-color: #3c9e53;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #3c9e53;
 			}
 
 		.pagination a.active {
