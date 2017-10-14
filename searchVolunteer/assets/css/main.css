@@ -2746,6 +2746,12 @@
 			font-size: 0.8rem;
 			margin-top: -0.75rem;
 		}
+		
+		header.minor {
+			font-size: 0.8rem;
+			margin: 0 0 4rem 0;
+			text-align: center;
+		}
 
 		header.major {
 			margin: 0 0 4rem 0;
